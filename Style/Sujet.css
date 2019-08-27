@@ -22,9 +22,9 @@ div.banner{
 }
 .menu{
     margin-top:65px; 
-    width: 74%;
-    margin-left: 0px;
-    border: 1px solid #ccc;
+    width: 50%;
+    margin-left: 1%;
+/*    border: 1px solid #ccc;*/
 /*    le contenu doit-il avoir une taille fixe?*/
     height: 700px;
     margin-bottom: 40px;
@@ -37,9 +37,26 @@ div.banner{
     margin-top:65px;
     margin-left: 2%;
     overflow: scroll;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    padding-left: 2%;
+        
     
     
+}
+.citation-photo {
+    width: 24%;
+    height: inherit;
+/*    border: 1px solid #ccc;*/
+    margin-top:65px;
+    margin-left: 2%;
+    background-color: #f0f0f5;
+    margin-bottom: 40px; 
+    
+}
+
+.citation-photo {
+    height: 200px;
+    width: 22%; 
 }
 
 .bas_page {
@@ -61,10 +78,61 @@ div.link a:hover:not(.active) {
     background-color: #111;
     
 }
+
 .active {
     background-color: #4CAF50;
 }
+
 table img {
     width: 40px;
     height: 40px;
+    border: 0px;
+}
+
+.menu h1{
+    line-height: 70px;
+    margin-top: 0px;
+    padding-top: 5px;
+    color: #4CAF50;
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: #f0f0f5;
+    font-weight: bold;
+    font-family: gorgia;
+    font-size: 40px;
+    
+/*    text-shadow: 5px 15px #333 ;*/
+}
+
+#list-post a{
+    text-decoration: underline; 
+    color: black;
+   
+   
+    
+}
+
+/*#list-post a:visited{
+    color: hotpink;
+}*/
+/*
+
+#list-post a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50
+}
+
+#list-post a:active{
+    color: green;
+}
+*/
+
+#list-post li{
+    list-style-type: none;
+   line-height: 30px;
+    word-spacing: 5px;
+    
+    
+   
 }

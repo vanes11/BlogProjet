@@ -4,6 +4,33 @@ body{
     height: 100%;
     
 }
+#header{
+   color: #4CAF50; 
+   text-transform: capitalize;
+   letter-spacing: 5px;
+   font-size: 45px;
+   font-weight: bold;
+   line-height: 31px;
+    margin-top: 20px;
+    font-family:gorgia;
+    text-align: center;
+    
+    
+}
+
+/*
+#last{
+    color:#333; 
+    text-align: right;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 31px;
+    margin-top: 0px;
+    font-family: verdana;
+}
+*/
 
 div.flex_container{
     display: flex;
@@ -14,38 +41,64 @@ div.banner{
     width: 100%;
     height: 40px;
     background-color:#333;
-    position:fixed;
+    position: sticky;
     padding-top:15px;
     overflow: hidden;
     top: 0px;
-    left: 0px;
-/*    border: 1px solid #4CAF50;*/
+/*    margin-top: 5px;*/
+
    
     
 }
 .menu{
-    margin-top:65px; 
-    width: 74%;
+    margin-top:60px; 
+    width: 60%;
     margin-left: 0px;
-    border: 1px solid #ccc;
+/*    border: 1px solid #ccc;*/
     height: inherit;
     margin-bottom: 40px;
-
-    
+    margin-left: 1.5%;
+    text-align: justify;
+    text-indent: 30px;
     
 }
+.images img{
+    height: 250px;
+    margin-top: 50px;
+   z-index: 0px;
+}
+
 .last_subject{
-    width: 20%;
+    width: 18%;
     height: inherit;
 /*    border: 1px solid #ccc;*/
-    margin-top:65px;
+    margin-top:60px;
     margin-left: 2%;
     overflow: scroll;
-    margin-bottom: 40px
-    
-
+    margin-bottom: 40px;
+    text-align: justify;
+/*    background-color: #e6e6ff;*/
         
 }
+
+.last_subject p{
+    text-indent: 30px;
+}
+
+.citations {
+    width: 15%;
+    height: inherit;
+/*    border: 1px solid #ccc;*/
+    margin-top:60px;
+    margin-left: 2%;
+    background-color: #f0f0f5;
+    margin-bottom: 40px; 
+    text-indent: 30px;
+    text-align: justify;
+    text-indent: 40px;
+    padding-left:15px;
+}
+
 .bas_page{
     width: 100%;
     border-top: 1px solid #f0f5f5;
@@ -53,6 +106,7 @@ div.banner{
     height: 70px;
     background-color: #ccc;
 }
+
 div.link a{
     color: white;
     padding: 30px;
@@ -70,38 +124,25 @@ div.link a:hover:not(.active) {
     background-color: #4CAF50;
     
 }
+
 /* footer*/
 table img{
     width: 40px;
     height: 40px;
+    border: 0px;
+}
+
+@media screen and (max-width:600px){
+    .last_subject, .menu, .citations{ 
+        width: 100%;
+    }
    
     
+    
 }
-/*
-@media screen and (max-width:900px){
-    div.banner{
-
+@media screen and (max-width: 500px){
+    #accueil, #footer, #apropos{
         width: 100%;
-        height: auto;
-        position: relative;
     }
-
-    div.link a {
-        float: left;
-        padding: 15px;
-        
-    }
-    
-    
 }
-@media screen and (max-width:400px){
-    
-    div.link a{
-        text-align: center;
-        float: none;
-        
-    }
-    
-}
-*/
 

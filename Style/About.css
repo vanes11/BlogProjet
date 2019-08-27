@@ -72,37 +72,32 @@ div.link a:hover:not(.active) {
     
 }
 /* footer*/
+
 table img{
     width: 40px;
     height: 40px;
+    border: 0px;
+    
+}
+
+/*@media screen and (max-width:900px){
+    .link a{
+        width: 100%;
+    }
+   
+        
+    }
+    
+    
+}*/
+/*
+@media screen and (max-width:600px){
+    .menu, .citation-detail, . {
+        width: 100%;
+    }
    
     
+    
 }
-/*
-@media screen and (max-width:900px){
-    div.banner{
 
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-
-    div.link a {
-        float: left;
-        padding: 15px;
-        
-    }
-    
-    
-}
-@media screen and (max-width:400px){
-    
-    div.link a{
-        text-align: center;
-        float: none;
-        
-    }
-    
-}
 */
-

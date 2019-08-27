@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="charset">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Mon Blog</title>
         <link href="../Style/Detail.css" type="text/css" rel="stylesheet">
     </head>
@@ -10,8 +12,8 @@
             <div class="banner">
                  <div class="link">
 
-                     <a href="Accueil.html"> Home</a>
-                     <a href="Sujet.html"> Sujets</a>
+                     <a  id="home" href="Accueil.html"> Home</a>
+                     <a id="sujets" href="Sujet.html"> Sujets</a>
                      <a href="#foot">Contacts</a>
                      <a  class="active" href="Detail.html">Details</a>
                      <a href="About.html"> About</a>
@@ -19,28 +21,41 @@
                  </div>
                 </div>
             
-                <div class="source">
+                <div class="citation-detail">
             
                 
                 </div>
             
                 <div class="menu">
                     
-                    <p id="title"><strong>Titre Du Sujet</strong></p>
+<!--                    <p id="title"> </p>-->
                     
-                    <div class="content">
-                    
+                    <div id="list-post">
+                        
                     
                     
                     </div>
                     
                     <div class="form">
+                        <form action="Accueil.html" method="get">
+                            
+                            <input name="pseudo" type="text" placeholder="  Entrer Votre Pseudo"/>
+                            
+                            <textarea name="commentaire" rows="18" cols="80" placeholder= "Saisissez Votre Commentaire ..."></textarea>
+                            
+                            <button type="submit"> Publier</button>
+                        </form>
                         
                         
                     </div>
                     
             
               </div>
+            
+              <div class="images">
+            
+            
+             </div>
             
               <div class="bas_page">
                   <footer id="foot">
@@ -63,5 +78,7 @@
             </div>
             
         </div>
+        <script src="../JSCode/data.js"></script>
+        <script src="../JSCode/detail.js"></script>
     </body>
 </html>
